@@ -3,7 +3,7 @@
 
 a = int(input('Введите положительное число: '))
 if a <= 0:
-    print(a)
+    a = int(input('Введите положительное число: '))
 b = str(a) + str(a)
 c = str(a) + str(a) + str(a)
 d = a + int(b) + int(c)
